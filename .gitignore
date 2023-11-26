@@ -1,0 +1,10 @@
+.idea
+.DS_STORE
+.terraform
+**/*.iml
+**/*.tfvars
+node_modules
+build
+.env
+.keep
+secrets

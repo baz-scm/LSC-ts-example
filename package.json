@@ -1,0 +1,27 @@
+{
+  "name": "lsc",
+  "version": "1.0.0",
+  "description": "language server client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run lint"
+  },
+  "author": "nimrod@getbaz.com",
+  "license": "ISC",
+  "dependencies": {
+    "rpc-websockets": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.6",
+    "gts": "^5.0.1",
+    "typescript": "~5.1.6"
+  }
+}
