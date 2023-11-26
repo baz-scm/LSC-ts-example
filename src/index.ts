@@ -122,7 +122,7 @@ async function callLsp(
   return 0;
 }
 
-const rootUri = path.join(path.dirname(path.dirname(__dirname)), "scn-webhook-listener", "listener");
+const rootUri = "path/to/example/python/dir";
 callLsp(rootUri, LanguageIdentifiers.PYTHON)
   .then(() => console.log('Success'))
   .catch(e => console.error(e));

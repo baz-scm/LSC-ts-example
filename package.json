@@ -15,7 +15,7 @@
     "posttest": "yarn run lint"
   },
   "author": "nimrod@getbaz.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "rpc-websockets": "^7.6.0"
   },
